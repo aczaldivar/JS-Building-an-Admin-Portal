@@ -26,3 +26,5 @@ function renderBook(book) {
 }
 
 main()
+
+module.exports = main; 
