@@ -10,4 +10,4 @@ mongoose.connect(process.env.MONGO_URI, {
 
 // Model and Export
 
-module.exports.Book = require('./book')
+module.exports.Book = require('./books')

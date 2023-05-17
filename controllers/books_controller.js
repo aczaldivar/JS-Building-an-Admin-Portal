@@ -3,7 +3,7 @@ const router = express.Router;
 const db = require ("./models")
 const books = express.Router();
 
-const Book = require("./models/book.js");
+const Books = require("./models/books.js");
 
 // GET
 router.get('/seed', (req, res) => {
